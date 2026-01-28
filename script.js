@@ -9,7 +9,7 @@ const portfolioData = {
         { name: 'HTML5', icon: 'fab fa-html5', percentage: 95 },
         { name: 'CSS3', icon: 'fab fa-css3-alt', percentage: 90 },
         { name: 'JavaScript', icon: 'fab fa-js', percentage: 88 },
-        { name: 'Bootstrap', icon: 'fa fa-bootstrap', percentage: 900 },
+        { name: 'Bootstrap', icon: 'fa fa-bootstrap', percentage: 90 },
         { name: 'React', icon: 'fab fa-react', percentage: 85 },
         { name: 'Node.js', icon: 'fab fa-node-js', percentage: 10 },
         { name: 'Java', icon: 'fab fa-python', percentage: 90 },
@@ -477,3 +477,4 @@ if (savedTheme === 'dark') {
 }
 
 console.log('Portfolio website loaded successfully! 🚀');
+
