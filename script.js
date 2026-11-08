@@ -6,14 +6,13 @@
 // Data for dynamic content
 const portfolioData = {
     skills: [
-        { name: 'HTML5', icon: 'fab fa-html5', percentage: 95 },
-        { name: 'CSS3', icon: 'fab fa-css3-alt', percentage: 90 },
-        { name: 'JavaScript', icon: 'fab fa-js', percentage: 88 },
-        { name: 'Bootstrap', icon: 'fa fa-bootstrap', percentage: 90 },
-        { name: 'React', icon: 'fab fa-react', percentage: 85 },
-        { name: 'Node.js', icon: 'fab fa-node-js', percentage: 10 },
-        { name: 'Java', icon: 'fab fa-python', percentage: 90 },
-        { name: 'MySql', icon: 'fas fa-database', percentage: 85 },
+        { name: 'BIM Modeling', icon: 'fas fa-cubes', percentage: 95 },
+        { name: '3D Modeling', icon: 'fas fa-cube', percentage: 85 },
+        { name: 'Revit', icon: 'fab fa-cubes', percentage: 90 },
+        { name: 'Naviswork', icon: 'fab fa-cubes', percentage: 88 },
+        { name: 'Point Cloud', icon: 'fas fa-expand', percentage: 90 },
+        { name: 'Scan to BIM', icon: 'fab fa-cube', percentage: 80 },
+        { name: 'Excel', icon: 'fas fa-file-excel', percentage: 85 },
         { name: 'Git', icon: 'fab fa-git-alt', percentage: 90 }
     ],
     
@@ -55,15 +54,7 @@ const portfolioData = {
             github: 'https://github.com/sajidbrow/MyPortfolio/upload',
             demo: ' https://sajidbrow.github.io/MyPortfolio/'
         },
-        {
-            title: 'E-Book Management System',
-            category: 'Web Application',
-            image: './images/E-Book2.png',
-            description: 'Full-stack E-Book Management System web application .',
-            tech: ['Html', 'Css', 'Bootstrap', 'Java', 'MySql','Servlets', 'JSP'],
-            github: 'https://github.com/sajidbrow/E-Book-Managment-System',
-            demo: '#'
-        },
+       
         {
             title: 'Password Generator',
             category: 'Web Application',
@@ -90,29 +81,19 @@ const portfolioData = {
             tech: ['HTML', 'CSS', 'JavaScript'],
             github: 'https://github.com/sajidbrow/Stop-Watch',
             demo: ' https://sajidbrow.github.io/Stop-Watch/'
-        },
-        {
-            title: 'Currency-Converter',
-            category: 'Web Application',
-            image: './images/currency-converter.png',
-            description: 'Analytics dashboard for social media management and insights.',
-            tech: ['HTML', 'CSS', 'JavaScript'],
-            github: 'https://github.com/sajidbrow/Currency-Converter',
-            demo: ' https://sajidbrow.github.io/Currency-Converter/'
         }
-       
     ],
     
     hobbies: [
         {
-            icon: 'fas fa-code',
-            title: 'Coding',
-            description: 'Building side projects and contributing to open source.'
-        },
-        {
             icon: 'fas fa-camera',
             title: 'Photography',
             description: 'Capturing moments and exploring creative photography.'
+        },
+         {
+            icon: 'fas fa-plane',
+            title: 'Travel',
+            description: 'Exploring new cultures and destinations around the world.'
         },
         {
             icon: 'fas fa-book',
@@ -129,11 +110,12 @@ const portfolioData = {
             title: 'Music',
             description: 'Playing guitar and exploring different music genres.'
         },
+       
         {
-            icon: 'fas fa-plane',
-            title: 'Travel',
-            description: 'Exploring new cultures and destinations around the world.'
-        }
+            icon: 'fas fa-code',
+            title: 'Coding',
+            description: 'Building side projects and contributing to open source.'
+        },
     ]
 };
 
@@ -188,7 +170,7 @@ function initializeNavigation() {
 
 // ===== TYPING EFFECT =====
 function initializeTypingEffect() {
-    const roles = ['Full Stack Developer', 'Web Designer', 'Problem Solver', 'Tech Enthusiast'];
+    const roles = ['BIM Engineer', 'BIM Modeler', 'MEP at BIMstream'];
     let roleIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -477,4 +459,3 @@ if (savedTheme === 'dark') {
 }
 
 console.log('Portfolio website loaded successfully! 🚀');
-
